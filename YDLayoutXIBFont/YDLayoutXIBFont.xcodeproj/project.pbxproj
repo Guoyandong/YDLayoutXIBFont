@@ -15,6 +15,7 @@
 		D7BFFD3D228545A5000125CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BFFD3C228545A5000125CD /* main.m */; };
 		D7BFFD47228545A6000125CD /* YDLayoutXIBFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BFFD46228545A6000125CD /* YDLayoutXIBFontTests.m */; };
 		D7BFFD52228545A6000125CD /* YDLayoutXIBFontUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BFFD51228545A6000125CD /* YDLayoutXIBFontUITests.m */; };
+		D7BFFD6522854761000125CD /* UIView+YDLayoutXIBFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BFFD6422854761000125CD /* UIView+YDLayoutXIBFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D7BFFD4D228545A6000125CD /* YDLayoutXIBFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDLayoutXIBFontUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BFFD51228545A6000125CD /* YDLayoutXIBFontUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLayoutXIBFontUITests.m; sourceTree = "<group>"; };
 		D7BFFD53228545A6000125CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BFFD6322854761000125CD /* UIView+YDLayoutXIBFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YDLayoutXIBFont.h"; sourceTree = "<group>"; };
+		D7BFFD6422854761000125CD /* UIView+YDLayoutXIBFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDLayoutXIBFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D7BFFD2C228545A4000125CD /* YDLayoutXIBFont */ = {
 			isa = PBXGroup;
 			children = (
+				D7BFFD5F2285472E000125CD /* YDLayoutXIBFont */,
 				D7BFFD2D228545A4000125CD /* AppDelegate.h */,
 				D7BFFD2E228545A4000125CD /* AppDelegate.m */,
 				D7BFFD30228545A4000125CD /* ViewController.h */,
@@ -130,6 +134,15 @@
 				D7BFFD53228545A6000125CD /* Info.plist */,
 			);
 			path = YDLayoutXIBFontUITests;
+			sourceTree = "<group>";
+		};
+		D7BFFD5F2285472E000125CD /* YDLayoutXIBFont */ = {
+			isa = PBXGroup;
+			children = (
+				D7BFFD6322854761000125CD /* UIView+YDLayoutXIBFont.h */,
+				D7BFFD6422854761000125CD /* UIView+YDLayoutXIBFont.m */,
+			);
+			path = YDLayoutXIBFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				D7BFFD32228545A4000125CD /* ViewController.m in Sources */,
 				D7BFFD3D228545A5000125CD /* main.m in Sources */,
+				D7BFFD6522854761000125CD /* UIView+YDLayoutXIBFont.m in Sources */,
 				D7BFFD2F228545A4000125CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
