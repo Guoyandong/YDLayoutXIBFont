@@ -9,8 +9,8 @@
 #import "UIView+YDLayoutXIBFont.h"
 #import <objc/runtime.h>
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
-//#define SizeScale ((CGFloat)(kScreenWidth / 375))
-#define SizeScale ((CGFloat)(kScreenWidth / 1000))
+#define standardWidth 375      //在这里以iPhone 6的屏幕宽度为基准
+#define SizeScale ((CGFloat)(kScreenWidth / standardWidth))
 
 /*
  XIB中Label和UIButton里文字的字体等比自动适配
