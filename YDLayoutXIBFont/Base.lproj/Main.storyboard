@@ -45,16 +45,27 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <searchBar contentMode="redraw" text="UISeachBar" placeholder="PlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="aVD-QP-iq5">
+                                <rect key="frame" x="0.0" y="243.5" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="b5w-1I-r7l"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="aVD-QP-iq5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="42b-rv-IQi"/>
                             <constraint firstItem="Kgu-pv-Vt8" firstAttribute="top" secondItem="bXL-jF-eS2" secondAttribute="bottom" constant="10" id="Gnm-Zu-J66"/>
+                            <constraint firstItem="aVD-QP-iq5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NDv-HT-Qc2"/>
                             <constraint firstItem="Pds-F1-LIz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Nmg-Q7-dMF"/>
                             <constraint firstItem="Kgu-pv-Vt8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PaO-xs-GHt"/>
                             <constraint firstItem="Pds-F1-LIz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QXm-4M-EcU"/>
                             <constraint firstItem="bXL-jF-eS2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RoB-sq-40L"/>
                             <constraint firstItem="bXL-jF-eS2" firstAttribute="top" secondItem="Pds-F1-LIz" secondAttribute="bottom" constant="10" id="b0T-cP-F5B"/>
+                            <constraint firstItem="aVD-QP-iq5" firstAttribute="top" secondItem="iuM-DY-LK6" secondAttribute="bottom" constant="10" id="h1C-H0-hPA"/>
                             <constraint firstItem="iuM-DY-LK6" firstAttribute="top" secondItem="Kgu-pv-Vt8" secondAttribute="bottom" constant="10" id="tYt-UL-wjR"/>
+                            <constraint firstItem="aVD-QP-iq5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ulR-Gi-ffm"/>
                             <constraint firstItem="iuM-DY-LK6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOb-QU-V7W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
